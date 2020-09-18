@@ -1,0 +1,172 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   /*header start*/
+    
+    .menu ul li a{
+        padding: 0 0 !important;
+        text-align: right;
+      }
+  /*header end*/
+  /*slider start*/
+  .slider{
+   padding-bottom: 80px;
+}
+  .cid {
+  bottom: -50px;
+}
+
+.cid li {
+  width: 13px;
+  height: 13px;
+}
+
+.s_content{
+   margin-top: 10px;
+}
+.s_content h1{
+  font-size: 25px;
+}
+.s_content h2{
+  margin: 15px 0;
+}
+.s_content p{
+  margin-bottom: 20px;
+}
+.s_icon li i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.s_img img {
+  display: none;
+  }
+  /*slider end*/
+ 
+ /*Feature start*/
+.features{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.c_h1{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.c_p{
+  font-size: 18px;
+  /*line-height: 20px;*/
+  word-spacing: 0;
+}
+.m_t{
+  margin-top: 30px !important;
+}
+.f_icon{
+  font-size: 40px;
+}
+.f_text{
+  text-align: center;
+}
+.f_text h2{
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/*Feature end*/
+/*contact start*/
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.cn_btn{
+  margin-top: 20px;
+}
+.con_icon ul li i{
+  font-size: 30px;
+  margin-right: 10px;
+}
+/*contact end*/
+/*footer start*/
+footer{
+  padding-bottom: 50px;
+}
+.f_1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*footer end*/
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   /*header start*/
+    
+    .menu ul li a{
+        padding: 0 0 !important;
+        text-align: right;
+      }
+  /*header end*/
+  /*slider start*/
+  .s_content {
+    margin-top: 40px !important;
+    }
+  .s_img img {
+    display: none;
+    }
+  /*slider end*/
+
+/*Feature start*/
+.features{
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.m_t{
+  margin-top: 40px !important;
+}
+.f_icon{
+  font-size: 40px;
+}
+.f_text{
+  text-align: center;
+}
+/*Feature end*/
+/*contact start*/
+.contact{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.con_icon ul li i{
+  font-size: 40px;
+}
+/*contact end*/
+/*footer start*/
+footer{
+  padding-bottom: 60px;
+}
+.f_1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*footer end*/
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /*header start*/
+    .menu ul li a{
+        padding: 0 0 !important;
+        text-align: right;
+      }
+  /*header end*/
+
+  /*slider start*/
+  .s_content {
+    margin-top: 35px;
+    }
+  /*slider end*/
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+}

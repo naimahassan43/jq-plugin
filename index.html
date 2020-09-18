@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Fonts link -->
+  <!-- plugin link -->
+  <link rel="stylesheet" href="vendor/wow/animate.css">
+  <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/owl-carousel/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendor/slick/css/slick.css">
+  <link rel="stylesheet" href="vendor/slick/css/slick-theme.css">
+  <!-- CSS Links-->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>JQ  Plugin Practice</title>
+   <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a0d2968dea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <h1 class="bg-light text-center p-2">JQuery Plugin</h1>
+
+<h3 class="bg-primary text-center p-3">Counter Up plugin</h3>
+<section class="sec1">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-8">
+         <div class="jq">
+           <h2 class="counter">1,234,567.00</h2>
+         </div>
+       </div>
+    </div>
+  </div>
+</section>
+<h3 class="bg-primary text-center p-3">WOW plugin</h3>
+ <section class="sec2">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-8">
+         <div class="wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s">
+           
+         </div>
+       </div>
+    </div>
+  </div>
+ </section>
+<section class="sec3 wow slideInRight" data-wow-offset="10"  data-wow-iteration="4">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-8">
+         <div class="jq">
+           
+         </div>
+       </div>
+    </div>
+  </div>
+ </section>
+<section class="sec4">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-8">
+         <div class="wow bounceInDown">
+           <h4 class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
+         </div>
+       </div>
+    </div>
+  </div>
+ </section>
+<h3 class="bg-primary text-center mt-4 p-3">Owl Carousal</h3>
+<section class="sec5">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-12">
+         <div class="owl-carousel owl-theme">
+          <div class="p-item"><img src="images/logo1.png"></div>
+          <div class="p-item"><img src="images/logo2.png"></div>
+          <div class="p-item"><img src="images/logo3.png"></div>
+          <div class="p-item"><img src="images/logo4.png"></div>
+          <div class="p-item"><img src="images/logo5.png"></div>
+          <div class="p-item"><img src="images/logo1.png"></div>
+          <div class="p-item"><img src="images/logo2.png"></div>
+          <div class="p-item"><img src="images/logo3.png"></div>
+          <div class="p-item"><img src="images/logo4.png"></div>
+          <div class="p-item"><img src="images/logo5.png"></div>
+          <div class="p-item"><img src="images/logo1.png"></div>
+          <div class="p-item"><img src="images/logo2.png"></div>
+          <div class="p-item"><img src="images/logo3.png"></div>
+          <div class="p-item"><img src="images/logo4.png"></div>
+          <div class="p-item"><img src="images/logo5.png"></div>
+         </div>
+       </div>
+    </div>
+  </div>
+</section>
+<h3 class="bg-primary text-center p-3">Slick Slider</h3>
+ <section class="sec-slick">
+  <div class="container">
+    <div class="row">
+       <div class="col-md-12">
+         <div class="autoplay">
+          <div class="item"> <img src="images/1.jpg"> </div>
+          <div class="item"> <img src="images/2.jpg"> </div>
+          <div class="item"> <img src="images/3.jpg"> </div>
+          <div class="item"> <img src="images/4.jpg"> </div>
+          <div class="item"> <img src="images/1.jpg"> </div>
+          <div class="item"> <img src="images/2.jpg"> </div>
+          <div class="item"> <img src="images/3.jpg"> </div>
+          <div class="item"> <img src="images/4.jpg"> </div>
+          
+        </div>
+       </div>
+    </div>
+  </div>
+ </section>  
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS, lastly Custom js-->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <!-- plugins -->
+  
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="vendor/counter-up/jquery.counterup.min.js"></script>
+  <script src="vendor/wow/wow.min.js"></script>
+  <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="vendor/slick/js/slick.min.js"></script>
+  
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    // wow js
+    wow = new WOW(
+      {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       true,       // default
+      live:         true        // default
+    }
+    )
+    wow.init();
+  </script>
+
+
+</body>
+
+</html>
